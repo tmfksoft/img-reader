@@ -1,0 +1,15 @@
+{
+  "name": "img-reader",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "start-dev": "npm run build && npm run start"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "typescript": "^4.4.4"
+  }
+}
