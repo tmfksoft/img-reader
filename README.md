@@ -11,6 +11,9 @@ The raw data is returned as a buffer which you can manipulate as you wish.
 # Does it hog RAM?
 It doesn't, only the file list is kept in memory. Raw file data is read off disk on demand when you try and access it.
 
+A possible performance improvement would be to read the file in chunks without reading the whole file into memory.
+It may speed up larger archive formats.
+
 # Code sample, please!
 ```
 const reader = new IMGReader(path.join(__dirname, "..", "cutscene.img"));
