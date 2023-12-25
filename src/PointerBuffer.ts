@@ -77,6 +77,7 @@ export default class PointerBuffer {
 		return chunks;
 	}
 
+	// Forwards the pointer without read operations.
 	forward(length: number) {
 		this.pointer += length;
 		this.pointerHistory.push(length);

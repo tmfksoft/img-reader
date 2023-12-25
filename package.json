@@ -1,8 +1,9 @@
 {
-  "name": "img-reader",
+  "name": "@majesticfudgie/img-reader",
   "version": "1.0.0",
   "main": "build/index.js",
   "license": "MIT",
+  "typings": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
     "start": "node ."
